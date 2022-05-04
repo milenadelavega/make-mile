@@ -1,0 +1,30 @@
+$estilos: (
+  color: #f893df,
+  centro: center
+);
+
+p  {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: 1rem;
+  color: white;
+}
+$estilos: (
+  azul: #4285F4,
+  naranja: #E67E22
+);
+
+@mixin fondo($color){
+  @if map-has-key($estilos, $color){
+    background-color: map-get($estilos, $color);
+  } 
+}
+
+.uno{
+  @include fondo(azul);
+  color: white;
+}
+.dos{
+  @include fondo(naranja);
+  color: white;
+}
