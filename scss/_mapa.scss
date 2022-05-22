@@ -10,8 +10,8 @@ p  {
   color: white;
 }
 $estilos: (
-  azul: #4285F4,
-  naranja: #E67E22
+  rosa:pink,
+
 );
 
 @mixin fondo($color){
@@ -21,10 +21,10 @@ $estilos: (
 }
 
 .uno{
-  @include fondo(azul);
-  color: white;
+  @include fondo(rosa);
+  color: black;
 }
 .dos{
-  @include fondo(naranja);
-  color: white;
+  @include fondo(rosa);
+  color: black;
 }

@@ -35,6 +35,12 @@ h2 {
 ul {
   list-style: none; }
 
+.pag-principal {
+  margin-left: 1rem; }
+
+.mapa {
+  margin-left: 1rem; }
+
 .Fondo {
   background: #fadde9;
   background: linear-gradient(90deg, #fadde9 0%, rgba(238, 17, 118, 0.490634) 100%); }
@@ -57,6 +63,9 @@ ul {
 .navegador a {
   color: white; }
 
+.frase-movimiento {
+  color: white; }
+
 .p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -73,9 +82,9 @@ p {
   color: white; }
 
 .uno {
-  background-color: #4285F4;
-  color: white; }
+  background-color: pink;
+  color: black; }
 
 .dos {
-  background-color: #E67E22;
-  color: white; }
+  background-color: pink;
+  color: black; }
